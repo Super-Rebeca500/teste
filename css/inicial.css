@@ -1,0 +1,226 @@
+.fundo{/* quadrado do quadrado*/
+    /* background-color: brown; */
+    justify-content: flex-end;
+    
+    /* padding: 9rem 4rem 1rem 4rem; */
+    /* width: 300px; */
+    /* height: 400px; */
+}
+
+.opcoes{ /*onde fica os quadrados*/
+    /* background-color: black; */
+    
+    
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.opcao{ /*Quadrado*/
+    background-color: #d9d9d9;
+    
+    
+    
+    padding: 0rem;
+    border-radius: 1rem;
+    height: 450px;
+    width: 330px;
+    
+}
+
+.container-central{
+    /* background-color: aquamarine; */
+    height: 65vh;
+    width: 100vw;
+    flex-wrap: nowrap;
+    align-items: center;
+    display: flex;
+    justify-content: center
+    
+}
+
+
+.carousel-inner{
+    /* background-color: aquamarine; */
+    width: 300px;
+    height: 250px;
+    
+}
+
+.descricao-recado{
+    width: 300px;
+    height: 250px;
+    /* background-color: chartreuse; */
+}
+
+
+
+
+.titulo-opcao{
+    /* background-color: aquamarine; */
+    height: 15%;
+    /* display: flex; */
+}
+
+.descricao-opcao{
+    /* background-color: chocolate; */
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+
+
+.btn-estoque{
+    /* background-color: #075fb8; */
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-meta{
+    /* background-color: #075fb8; */
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.opcao p{
+    font-size: 20px;
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px
+}
+
+
+.foto-btn {
+    /* background-color: crimson; */
+    height: 250px;
+    width: 250px;
+    /* padding: 2rem; */
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 15px; */
+
+}
+
+
+
+
+
+
+
+.recado-top, .recado-central{
+    width: 100vw;
+    padding: 2rem 3rem 1rem 3rem;
+          /* cima dir  baixo esq */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.recado-top h3{
+    background-color: #8d8d8d;
+    width: 360px;
+    padding: .3rem 1rem;
+    border-radius: .5rem;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e2e2e2;
+    
+}
+
+
+.titulo-recado{
+    font-size: 18px;
+}
+.descricao-recado{
+    font-size: 12px;
+    height: 42px;
+}
+
+.recado-novo .status{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+
+
+
+.titulo-abrir{
+    width: 250px;
+    height: 56px;
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+    font-size: 20px;
+    align-items: flex-end;
+}
+
+.titulo-status{
+    width: 250px;
+    height: 56px;
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+
+.titulo-metas{
+    width: 250px;
+    height: 56px;
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.titulo-notificacao{
+    background-color: cornflowerblue;
+    height: 70px;
+
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*=======================================================================================================================*/
+/*///////////////////////////////////////////////// Animação do Botão Voltar ////////////////////////////////////////////*/
+/*=======================================================================================================================*/
+
+.container-voltar {
+    
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    left: 7%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    margin-top: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #075fb8;
+  }

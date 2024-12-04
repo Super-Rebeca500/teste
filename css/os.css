@@ -1,0 +1,288 @@
+
+
+.container-central-meta{
+    /* background-color: aquamarine; */
+    height: 65vh;
+    width: 100vw;
+    flex-wrap: nowrap;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center
+    
+}
+
+.foto-os-btn{
+    /* background-color: crimson; */
+    height: 250px;
+    width: 250px;
+    /* padding: 2rem; */
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 43px;
+    margin-bottom: 10px;
+}
+
+.os-table{
+    background-color: #075fb8;
+    margin-top: 130px;
+    height: 630px;
+    width: 1200px;
+    border: 18px outset gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AAA{
+    width: rem;
+}
+.container-os-table{
+    background-color: blueviolet;
+    width: 120vh;
+    height: 60vh;
+    margin-left: 3rem;
+}
+
+/*=======================================================================================================================*/
+/*//////////////////////////////////////////////////////// Container Top ////////////////////////////////////////////////*/
+/*=======================================================================================================================*/
+.os-top{
+    background-color: aquamarine;
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+}
+
+.os-top-left{
+    background-color: brown;
+    width: 20%;
+    height: 100%;
+}
+
+.os-top-center{
+    background-color: burlywood;
+    width: 50%;
+    height: 100%;
+}
+
+.os-top-right{
+    background-color: cornflowerblue;
+    width: 30%;
+    height: 100%;
+}
+
+/*=======================================================================================================================*/
+/*////////////////////////////////////////////////////// Container Center ///////////////////////////////////////////////*/
+/*=======================================================================================================================*/
+
+.os-center{
+    /* background-color: darkgreen; */
+    width: 100%;
+    height: 80%;
+}
+
+/*=======================================================================================================================*/
+.os-center-top{
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.data-center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.os-center-top-left{
+    background-color: rgb(184, 11, 11);
+    width: 40%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+  
+}
+
+
+
+
+.os-center-top-right{
+    background-color: blue;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    
+
+}
+
+
+.label1{
+    background-color: #fff;
+    margin: 0%;
+    padding: 0%;
+    width:  170px;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+
+.label2{
+    background-color: #fff;
+    margin: 0%;
+    padding: 0%;
+    width: 470px;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+.form-label-hora-dois{
+    margin-left: 100%;
+}
+
+
+/*=======================================================================================================================*/
+
+.os-center-cliente{
+    /* background-color: darkmagenta; */
+    width: 100%;
+    height: 35%;
+
+    
+}
+
+.titulo-tabela-os{
+    background-color: rgb(199, 201, 201);
+    height: 30px;
+    padding: 3px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.form-label{
+    
+    /* background-color: aqua; */
+    margin: 0%;
+}
+
+.form-control{
+    width: 170px;
+    height: 25px;
+    margin: 0%;
+}
+
+.form-control-um{
+    width: 525px;
+    height: 25px;
+    margin: 0%;
+    margin-left: 3px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.form-label-um{
+    
+    /* background-color: aqua; */
+    margin: 0%;
+    margin-left: 3px;
+}
+
+.form-control-endereco{
+    width: 255px;
+    height: 25px;
+    margin: 0%;
+    margin-left: 3px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.form-control-pr{
+    width: 430px;
+    height: 25px;
+    margin: 0%;
+    margin-left: 3px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.form-control-rg{
+    width: 160px;
+    height: 25px;
+    margin: 0%;
+    margin-left: 3px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+.form-control-hora{
+    width: 100px;
+    height: 20px;
+    margin: 0%;
+    margin-left: 3px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+/* ===================================================================================================================== */
+.os-center-empresa{
+    /* background-color: khaki; */
+    width: 100%;
+    height: 40%;
+}
+
+.form-control-ta{
+    width: 249px;
+    height: 25px;
+    margin: 0%;
+    margin-left: 3px;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+
+.form-control-dois{
+    width: 520px;
+    height: 25px;
+    margin: 0%;
+    margin-left: 3px;
+    border-radius: 5px;
+    border-style: none;
+}
+/* ====================================================================================================================== */
+.os-center-down{
+    /* background-color: lightseagreen; */
+    width: 100%;
+    height: 10%;
+}
+
+/*=======================================================================================================================*/
+/*///////////////////////////////////////////////// Animação do Botão Voltar ////////////////////////////////////////////*/
+/*=======================================================================================================================*/
+
+.container-voltar {
+    
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    left: 7%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    margin-top: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #075fb8;
+  }
+  

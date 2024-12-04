@@ -1,0 +1,69 @@
+
+.container-login {
+    /* background-color: #c93c3c; */
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.login-area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    padding: 40px;    
+    height: 380px;
+    width: 500px;
+    background-color: darkgrey;
+    border-radius: 1.5rem;
+
+    
+    /* justify-content: center; */
+    
+}
+
+.dados{
+    /* background-color: #bd0d0d;  */
+    /* display: flex; */
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.titulo{
+
+    background-color: cornflowerblue;
+    height: 70px;
+
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.titulo h3{
+    font-size: 35px;
+    /* background-color: blueviolet; */
+}
+
+h6 {
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.botoes{
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.botao{
+    margin-top: 27px;
+}
+
+
